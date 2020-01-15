@@ -1,0 +1,19 @@
+AnalysisUtil.logEvent("红包记录界面展示次数");
+AnalysisUtil.logEvent("打开辅助界面次数");
+
+//2017-1-14 18:29:08
+AnalysisUtil.logEvent("应用启动");
+AnalysisUtil.logEvent("进入主界面");
+AnalysisUtil.logEvent("启动屏广告", "成功/失败/点击", configModel.getPlacementId());
+AnalysisUtil.logEvent("主界面广告", "成功/失败/点击", configModel.getPlacementId());
+AnalysisUtil.logEvent("历史记录广告", "成功/失败/点击", configModel.getPlacementId());
+AnalysisUtil.logEvent("使用攻略广告", "成功/失败/点击", configModel.getPlacementId());
+AnalysisUtil.logEvent("设置广告", "成功/失败/点击", configModel.getPlacementId());
+AnalysisUtil.logEvent("进入设置界面");
+AnalysisUtil.logEvent("抢红包姿势切换次数");
+AnalysisUtil.logEvent("打开使用攻略");
+AnalysisUtil.logEvent("打开去评分");
+AnalysisUtil.logEvent("打开反馈");
+AnalysisUtil.logEvent("打开关于");
+AnalysisUtil.logEvent("打开使用声明");
+AnalysisUtil.logEvent("检查更新");

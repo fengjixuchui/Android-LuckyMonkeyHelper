@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="315dp"
+        android:layout_height="540dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_card_shape">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bg_card_top" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/btn_next" />
+
+            <me.relex.circleindicator.CircleIndicator
+                android:id="@+id/view_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_above="@+id/btn_next"
+                android:layout_marginBottom="65dp" />
+
+
+            <Button
+                android:id="@+id/btn_next"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_button_item_selector"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="@string/guide_next"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

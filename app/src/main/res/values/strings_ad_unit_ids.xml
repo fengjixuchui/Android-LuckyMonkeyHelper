@@ -1,0 +1,17 @@
+<resources>
+    <string name="ad_splash_admob">ca-app-pub-3836337194051360/8871094737</string>
+    <string name="ad_splash_tencent"></string>
+
+    <string name="ad_main_admob">ca-app-pub-3836337194051360/5625616739</string>
+    <string name="ad_main_tencent"></string>
+
+    <string name="ad_history_admob">ca-app-pub-3836337194051360/6823148334</string>
+    <string name="ad_history_tencent"></string>
+
+    <string name="ad_usage_admob">ca-app-pub-3836337194051360/7394897932</string>
+    <string name="ad_usage_tencent"></string>
+
+    <string name="ad_settings_admob">ca-app-pub-3836337194051360/5739707937</string>
+    <string name="ad_settings_tencent"></string>
+
+</resources>

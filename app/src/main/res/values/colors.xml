@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ce3d3e</color>
+    <color name="colorPrimaryDark">#af3435</color>
+    <color name="colorAccent">#ce3d3e</color>
+
+
+    <color name="common_bg">#ebebeb</color>
+    <color name="common_bg_press">#a1a1a1</color>
+    <color name="common_line">#d9d9d9</color>
+    <color name="common_text">#505050</color>
+    <color name="common_text_hint">#aeaeae</color>
+    <color name="common_text_link">#4078c0</color>
+    <color name="common_text_red">#db3737</color>
+    <color name="common_text_light">#a1a1a1</color>
+    <color name="common_text_desc">#999999</color>
+
+    <color name="common_btn_bg_normal">#393a3f</color>
+    <color name="common_btn_bg_press">#2e2e32</color>
+    <color name="common_btn_bg_disable">#aeaeae</color>
+    <color name="common_btn_bg_selected">#40c60a</color>
+
+    <color name="text_main_count">#fd4f00</color>
+    <color name="text_main_desc">#fcb65a</color>
+</resources>

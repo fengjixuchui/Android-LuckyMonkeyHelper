@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_usage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.newtoncode.app.luckymonkeyhelper.ui.activity.AboutUsageActivity">
+
+
+    <include
+        android:id="@+id/action_bar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/action_bar"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin">
+
+                    <TextView
+                        style="@style/TextTheme.Normal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="抢红包分为两种方式"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+
+                    <TextView
+                        style="@style/TextTheme.Normal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="方式一、边聊边抢"
+                        android:textColor="@color/common_text_red" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin"
+                        android:src="@drawable/type_manual" />
+
+                    <TextView
+                        style="@style/TextTheme.Normal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin"
+                        android:text="该方式抢完红包停留在聊天界面，您可以一边聊天一边抢红包。" />
+
+                    <TextView
+                        style="@style/TextTheme.Normal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin"
+                        android:text="注意：您的打字，语音等操作会打断抢红包操作，会有一定的几率抢红包失败！"
+                        android:textColor="@color/common_text_link" />
+                </LinearLayout>
+
+
+                <com.newtoncode.lib.ads.views.AdView
+                    android:id="@+id/ad_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    app:ad_layout="@layout/view_ad_simple_splash"
+                    app:ad_name="usage_ad"
+                    app:ad_size="360x320"
+                    app:admob_unit_id="@string/ad_usage_admob"
+                    app:tencent_unit_id="@string/ad_usage_tencent" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin">
+
+                    <TextView
+                        style="@style/TextTheme.Normal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="方式二、全自动"
+                        android:textColor="@color/common_text_red" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin"
+                        android:src="@drawable/type_auto" />
+
+                    <TextView
+                        style="@style/TextTheme.Normal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin"
+                        android:text="该方式抢完红包始终停留在聊天列表界面，绝不放过任何一个红包。" />
+
+                    <TextView
+                        style="@style/TextTheme.Normal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin"
+                        android:text="注意：使用该方式您将不可以进行聊天等操作！"
+                        android:textColor="@color/common_text_link" />
+
+                    <TextView
+                        style="@style/TextTheme.Normal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="    为保证软件正常工作，使用该软件时请不要息屏，锁屏，请将软件保持后台运行；建议您打开微信，保持屏幕常亮。\n\n    抢红包有风险，使用该软件造成的封号，销号等情况，用户需自行承担后果。\n\n\n"
+                        android:textColor="@color/common_text_red" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

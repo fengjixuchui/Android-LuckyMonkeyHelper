@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--广告控件-->
+    <declare-styleable name="AdView">
+        <attr name="ads_position" format="string" />
+    </declare-styleable>
+
+</resources>

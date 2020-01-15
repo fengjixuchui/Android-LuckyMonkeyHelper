@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="msg_load_more_loading">加载中 &#8230;</string>
+    <string name="msg_load_more_loaded_no_more">暂无更多</string>
+    <string name="msg_load_more_error">加载失败，请重试 </string>
+
+    <string name="msg_load_tips_empty">什么都没有&#8230;</string>
+    <string name="msg_load_tips_loading">加载中&#8230;</string>
+    <string name="msg_load_tips_error">加载失败，请重试 </string>
+
+
+</resources>

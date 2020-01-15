@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rush_mode"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.newtoncode.app.luckymonkeyhelper.ui.activity.RushModeActivity">
+
+    <include
+        android:id="@+id/action_bar"
+        layout="@layout/toolbar" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/action_bar"
+        android:background="#fff" />
+
+</RelativeLayout>

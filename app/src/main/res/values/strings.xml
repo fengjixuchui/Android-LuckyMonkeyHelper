@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">抢红包神器</string>
+
+    <string name="app_name_title">抢红包神器</string>
+
+    <string name="access_off">关闭</string>
+    <string name="access_tip_step_01">请找到</string>
+    <string name="access_tip_step_02">打开功能</string>
+
+    <string name="setting">设置</string>
+    <string name="service_tips">请在最下面找到抢红包神器并打开服务。</string>
+
+    <string name="service_label">抢红包神器-2017大鸡大利</string>
+    <string name="service_description">请点击右上角的开启按钮\n\n打开辅助功能来使用『抢红包神器』帮您自动完成快速抢红包的动作，快来试试吧。\n\n提示：打开辅助功能时，会受到系统例行的警示提醒。『抢红包神器』不会进行侵害用户利益的行为，请放心开启。</string>
+
+    <string name="action_settings">设置</string>
+    <string name="action_history">记录</string>
+
+    <string name="monkey_history">红包记录</string>
+    <string name="rush_mode">抢红包姿势</string>
+    <string name="rush_mode_auto">全自动</string>
+    <string name="rush_mode_chat">边聊边抢</string>
+    <string name="update_config">更新姿势</string>
+    <string name="use_strategy">使用攻略</string>
+    <string name="go_score">去评分</string>
+    <string name="feed_back">反馈</string>
+    <string name="about">关于</string>
+    <string name="use_statement">服务条款与隐私协议</string>
+    <string name="app_version_name">v%1$s</string>
+
+
+    <string name="no_connect">无网络连接</string>
+    <string name="please_install_wx">请先安装微信客户端</string>
+    <string name="get_wx_version_error">获取微信版本失败</string>
+    <string name="dont_support_wx_version">暂时不支持此版本,请反馈或升级微信到最新版本</string>
+    <string name="do_not_version">暂时不支持此版本，请在侧边栏进行反馈微信版本</string>
+    <string name="update_config_success">更新微信版本成功</string>
+    <string name="update_config_failed">更新微信版本失败</string>
+    <string name="update_config_ing">正在更新配置信息&#8230;</string>
+    <string name="title_about_us">关于</string>
+    <string name="helper_monkey_total_money">累计%1$s元</string>
+    <string name="main_open_service">开启服务</string>
+    <string name="main_service_opened">正在帮您抢红包&#8230;</string>
+
+    <string name="guide_step1">第一步，打开手机->设置->辅助功能；\n        小米、魅族、华为等国产手机，若辅助功能里有“无障碍”，则打开无障碍。</string>
+    <string name="guide_step2">第二步，滑动屏幕，找到『抢红包神器-大鸡大利』，点击打开。</string>
+    <string name="guide_step3">第三步，点击右上角开关，并点击确认打开。</string>
+    <string name="guide_next">下一步</string>
+    <string name="guide_ready">立即开启</string>
+    <string name="newbie_guide">新手必读</string>
+
+</resources>
